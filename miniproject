@@ -1,0 +1,209 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel and Tourism Website</title>
+<!-- CSS stylesheets -->
+<link rel="stylesheet" href="styles.css">
+<style>
+body{
+background-image: url(“travel.jpeg”);
+ background-repeat: no-repeat;
+ background-attachment: fixed; 
+background-size: cover;
+}
+</style>
+</head>
+<body>
+<header>
+<nav>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Simple Nav Bar</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+            <nav>
+                <ul class="nav-list">
+                    <li style="float:right"><a href="#home">Home</a></li><br>
+                    <li style="float:right"><a href="destinations.html">Destination</a></li><br>
+                    <li style="float:right"><a href="packages.html">package</a></li><br>
+                    <li style="float:right"><a href="contactus.html">contact us</a></li>
+                </ul>
+            </nav>
+        </body>
+        </html>
+
+</header>
+<main>
+<h1 style="text-align:center;"> Welcome to TRAVEL AROUND THE WORLD!</h1>
+<p>
+At TRAVEL AROUND THE WORLD, we're passionate about creating unforgettable travel experiences for adventurers, wanderers, and explorers alike. Founded with a vision to redefine the way
+ 
+people travel, we strive to curate journeys that go beyond the ordinary, offering unique and immersive experiences that leave a lasting impression.
+
+<br><br><b>Our mission is simple:</b> to inspire, connect, and empower travelers to explore the world with curiosity and enthusiasm. Whether you're seeking the thrill of climbing majestic mountains, the tranquility of secluded beaches, or the rich tapestry of diverse cultures, we're here to make your travel dreams a reality.
+
+<br><br>With a team of experienced professionals who share a deep love for travel, we're dedicated to providing personalized service and expert guidance every step of the way. From crafting bespoke itineraries to ensuring seamless logistics, we're committed to exceeding your expectations and creating moments you'll cherish forever.
+
+<br><br>Join us on a journey of discovery, adventure, and unforgettable memories. Let's explore the world together and make every moment count!
+</p>
+</main>
+<footer>
+travel arond the world
+</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Packages</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+body{
+background-image: url("travel.jpeg");
+ background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Travel Packages</h1>
+<div class="packages">
+<div class="package">
+<h2>Adventure in the Himalayas</h2>
+                <img src="Himalayas.jpeg" alt="Himalayas">
+ 
+<p>Experience the breathtaking beauty of the Himalayas with our adventure package. Includes trekking, camping, and guided tours to stunning mountain vistas.</p>
+<p class="price">$2000</p>
+<a href="booknow.html" class="btn">Book Now</a>
+</div>
+<div class="package">
+<h2>Beach Paradise in Bali</h2>
+                 <img src="bali.jpeg" alt="Bali">
+<p>Relax and unwind on the beautiful beaches of Bali. Enjoy luxurious accommodations, spa treatments, and water sports in this tropical paradise.</p>
+<p class="price">$1500</p>
+<a href="booknow.html" class="btn">Book Now</a>
+</div>
+</div>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Packages</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+body{
+background-image: url("travel1.jpg");
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover;
+}
+</style>
+</head>
+<body>
+<p>
+Here are some common types of packages you might find:<br><br><br>
+
+<b>Destination Packages:</b> These packages focus on specific destinations, such as cities, beaches, mountains, or historical sites. They include accommodation, transportation, and sometimes guided tours to popular attractions in that destination.
+
+<br><br><b>Adventure Packages:</b> Adventure packages cater to travelers seeking thrilling experiences such as hiking, trekking, scuba diving, skiing, or wildlife safaris. These packages often include expert guides, specialized equipment, and accommodations close to the adventure sites.
+ 
+<br><br><b>Cultural Packages:</b> Cultural packages offer travelers the opportunity to immerse themselves in the local culture and traditions of a destination. They may include visits to museums, cultural events, cooking classes, and interactions with local communities.
+
+<br><br><b>Luxury Packages:</b> Luxury packages cater to travelers looking for upscale experiences with premium accommodations, fine dining, exclusive tours, and personalized services such as private drivers and butlers.
+
+<br><br><b>Honeymoon Packages:</b> These packages are tailored for newlyweds and typically include romantic getaways to exotic destinations, special dinners, spa treatments, and activities designed for couples.
+
+<br><br><b>Family Packages:</b> Family-friendly packages are designed to accommodate the needs of travelers with children. They often include kid-friendly accommodations, activities suitable for all ages, and amenities such as childcare services and family-friendly dining options.
+
+<br><br><b>Group Packages: </b>Group packages are ideal for travelers who prefer to explore destinations with a group of friends, colleagues, or like-minded individuals. These packages offer discounted rates for larger groups and may include group tours, team-building activities, and shared accommodations.
+
+<br><br><b>Customizable Packages:</b> Some travel and tourism websites offer customizable packages where travelers can tailor their itinerary based on their preferences, interests, and budget. They can choose activities, accommodations, and transportation options to create a personalized travel experience.
+</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<style>
+* { margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: Arial, sans-serif; background-color: #f4f4f4;
+}
+.container {
+max-width: 600px; margin: 0 auto; padding: 20px;
+}
+ 
+h1 {
+text-align: center; margin-bottom: 30px;
+}
+p {
+margin-bottom: 20px;
+}
+.form-group {
+margin-bottom: 20px;
+}
+label {
+display: block; margin-bottom: 5px;
+}
+input[type="text"], input[type="email"], textarea {
+width: 100%; padding: 8px;
+border: 1px solid #ccc; border-radius: 5px;
+}
+button[type="submit"] { background-color: #00aaff; color: #fff;
+padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;
+}
+button[type="submit"]:hover { background-color: #0077cc;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Contact Us</h1>
+<p>Please fill out the form below to get in touch with us.</p>
+<form id="contact-form">
+<div class="form-group">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+</div>
+<div class="form-group">
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+</div>
+ 
+<div class="form-group">
+<label for="message">Message:</label>
+<textarea id="message" name="message" rows="6" required></textarea>
+</div>
+<button type="submit" class="btn">Send Message</button>
+</form>
+</div>
+</body>
+</html>- 👋 Hi, I’m @durkgesh
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+
+<!---
+durkgesh/durkgesh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
